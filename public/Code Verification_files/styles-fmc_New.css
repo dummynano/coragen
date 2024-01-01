@@ -1,0 +1,255 @@
+*{
+    font-family:Montserrat;
+}
+.img-fluid {
+    width: 100%;
+    margin: 25px auto;
+    display: block;
+    height: auto;
+}
+
+.headerText {
+    color: #59B962;
+}
+
+.uidText {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    background: #E4DCD1;
+    font-size: 18px;
+    color: #755735;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.tableOne {
+    width: 62%;
+    border: none;
+    float: left;
+}
+
+.Taxicity {
+    float: left;
+	text-align:center;
+}
+
+.tableOne tr {
+    border-bottom: 1px solid #E5E5E7;
+}
+.tableOne tr td:first-child{
+	
+	width:33%;
+}
+
+.tableOne tr td {
+	
+    padding: 5px 5px 5px 0px;
+}
+
+.tableOne tr td span {
+    font-weight: bold;
+    color: #755735;
+    margin-left: 5px;
+}
+
+.Links {
+    margin-top: 20px;
+}
+
+.Links p {
+    font-size: 15px;
+    padding: 5px;
+    background: #F2EFEA;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #755735;
+    text-align: center;
+}
+
+.Links p a {
+    color: #755735;
+    font-size: 14px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container header img {
+    width: 25%;
+}
+
+.container header {
+    padding: 20px;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.FerterraText {
+    padding: 10px 30px 20px 30px;
+    background: #E4DCD1;
+    margin-top: 30px;
+}
+
+.FerterraText h3 {
+    color: #755735;
+    font-weight: bold;
+}
+
+.FerterraText p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #828482;
+}
+
+.about-fmc {
+    padding: 10px 30px 20px 30px;
+}
+
+.about-fmc h3 {
+    color: #755735;
+    font-weight: bold;
+}
+
+.about-fmc p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #828482;
+}
+
+.line {
+    border-top: 1px solid #CFCFCF;
+    width: 95%;
+    margin: 10px auto;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .container header img {
+        width: 65%;
+    }
+
+    .img-100 {
+        height: 100px;
+    }
+
+    .uidText {
+        width: 100%;
+    }
+
+    .tableOne {
+        width: 100%;
+    }
+
+    .tableOne {
+        font-size: 13px;
+    }
+
+    .Taxicity {
+        margin: 15px 30%;
+        display: block;
+		text-align:center;
+    }
+
+    .Links p {
+        width: 100%;
+    }
+
+    .img-fluid {
+        margin: 0px auto;
+    }
+}
+
+.border-right {
+    border-right: 1px solid #ccc;
+    display: flex;
+	    align-content: flex-end;
+}
+
+.border-right a {
+    padding: 6px 2px !important;
+	width:40%
+	
+}
+
+.btn-floating p {
+    font-size: 13px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    color: #9b9b9b;
+}
+
+.socialIcon {
+    width: 30px;
+}
+
+.fmcIcon {
+    width: 100%;
+}
+.IconBox{
+
+	height:35px;
+}
+
+.modal-title{
+	text-align:center;
+	color:#09B256;
+	font-size:13px;
+	line-height:18px;
+}
+
+.form-control {
+  margin-bottom:10px;
+  padding:20px 12px;
+}
+.errorSpan{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color:rgb(192, 2, 2);
+}
+.btn-submit{
+	width:60%;
+	padding:5px;
+	background:#09B256;
+	margin:5px auto;
+	font-size:18px;
+	display:block;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+
+ 
+.errorDiv{
+    padding:20px 50px;
+    }
+    .codeText{
+    margin-top:50px;
+    font-weight:bold;
+    color:#f1c30f;
+    }
+    .scanedText{
+    font-size:17px;
+    font-weight:500;
+    }
+    .mx-2{
+    width:35px;
+    }
+    .borer-none li{
+    border:none;
+    font-size:18px;
+    font-weight:500;
+    }
+    .callus{
+    margin-left:30px;
+    font-size:18px;
+    margin-bottom:0px;
+    font-weight:500;
+    }
+    
+    .errorLogo{
+        width: 100%;
+        float: left;
+    }
